@@ -30,6 +30,18 @@
             opacity: 1; /* Opacidade definida para 100% */
             pointer-events: none;
         }
+
+        /* Logos patrocinadores */
+        .logos-patrocinio {
+            max-width: 50%;
+            height: auto;
+        }
+
+        @media (max-width: 767px) {
+            .logos-patrocinio {
+                max-width: 65%;
+            }
+        }
     </style>
 
 </head>
@@ -130,7 +142,7 @@
                 <div class="row justify-content-center">
                     <div class="col-12 col-lg-10">
                         <div class="text-center wow fadeInUp" data-wow-delay=".4s">
-                            <img src="logos.png" class="img-fluid w-100" alt="Patrocinadores Oficiais" style="max-width: 1392px;">
+                            <img src="logos.png" class="img-fluid logos-patrocinio" alt="Patrocinadores Oficiais">
                         </div>
                     </div>
                 </div>
