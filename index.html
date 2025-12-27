@@ -1,0 +1,711 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Estação Verão Show - Praia Grande</title>
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Estação Verão Show em Praia Grande" name="description">
+    <meta content="show, praia grande, verão, música" name="keywords">
+    <meta content="" name="author">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
+    <link href="css/vendors.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css">
+
+    <style>
+        #section-mapa,
+        #section-local,
+        #section-faq,
+        footer {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .deco-img {
+            position: absolute;
+            z-index: 0;
+            opacity: 1; /* Opacidade definida para 100% */
+            pointer-events: none;
+        }
+    </style>
+
+</head>
+
+<body class="dark-scheme">
+
+    <div id="wrapper">
+
+        <div class="float-text show-on-scroll">
+            <span><a href="#">Topo</a></span>
+        </div>
+        <div class="scrollbar-v show-on-scroll"></div>
+
+        <div id="de-loader"></div>
+        <header class="transparent">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="de-flex">
+                            <div class="de-flex-col">
+                                <div id="logo">
+                                    <a href="index.html">
+                                        <img class="logo-main" src="images/logo.png" alt="Logo Estação Verão Show">
+                                        <img class="logo-scroll" src="images/logo.png" alt="Logo Estação Verão Show">
+                                        <img class="logo-mobile" src="images/logo.png" alt="Logo Estação Verão Show">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="de-flex-col">
+                                <div class="de-flex-col header-col-mid">
+                                    <ul id="mainmenu">
+                                        <li><a class="menu-item active" href="#section-hero">Home</a></li>
+                                        <li><a class="menu-item" href="#section-shows">Shows</a></li>
+                                        <li><a class="menu-item" href="#section-mapa">Mapa</a></li>
+                                        <li><a class="menu-item" href="#section-setores">Setores</a></li>
+                                        <li><a class="menu-item" href="#section-local">Local</a></li>
+                                        <li><a class="menu-item" href="#section-faq">FAQ</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="de-flex-col">
+                                <a class="btn-main fx-slide w-100" href="#section-shows"><span>Ver Atrações</span></a>
+
+                                <div class="menu_side_area">
+                                    <span id="menu-btn"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="section-hero" class="section-dark no-top no-bottom text-light jarallax relative mh-800" data-img-src="images/background/8.png"> 
+           
+            
+            <div class="abs abs-centered z-2 w-80">
+                <div class="container wow scaleIn" data-wow-duration="3s">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <br><br>
+                            <img src="images/estacaoverao.png" alt="Estação Verão Show" class="mb-4" style="max-width: 100%; height: auto;">
+
+                            <div class="d-block d-md-flex justify-content-center">
+                                <div class="d-flex justify-content-center align-items-center mx-4">
+                                    <i class="fa fa-calendar id-color me-3"></i>
+                                    <h4 class="mb-0">20 de Dezembro a 31 de Janeiro</h4>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center mx-4">
+                                    <i class="fa fa-location-pin id-color me-3"></i>
+                                    <h4 class="mb-0">Kartódromo de Praia Grande, SP</h4>
+                                </div>
+                            </div>
+
+                            <div class="spacer-single"></div>
+
+                            <a class="btn-main mx-2 fx-slide" href="#section-setores"><span>Comprar Ingressos</span></a>
+                            <a class="btn-main btn-line mx-2 fx-slide" href="#section-shows"><span>Ver Atrações</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-shows" class="bg-dark section-dark text-light">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-6 offset-lg-3 text-center">
+                        <div class="subtitle wow fadeInUp mb-3">Atrações</div>
+                        <h2 class="wow fadeInUp" data-wow-delay=".2s">A Grade Completa do Estação Verão Show</h2>
+                        <p class="lead mb-0 wow fadeInUp">Prepare-se para shows inesquecíveis! Confira a programação e garanta seu lugar nos melhores dias do verão.</p>
+                    </div>
+                </div>
+
+                <div class="spacer-single"></div>
+
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="hover">
+                            <div class="bg-dark-2 relative rounded-1 overflow-hidden hover-bg-color hover-text-light wow scale-in-mask">
+                                <div class="abs p-40 bottom-0 z-2">
+                                    <div class="relative wow fadeInUp">
+                                        <h4>20/12 - Chitãozinho e Xororó<br>& Leonardo</h4>
+										 <p class="mb-3">Sertanejo e forró para agitar a sua sexta-feira.</p>
+                                        <a class="btn-main btn-sm fx-slide" href="https://www.guicheweb.com.br/estacaoveraopg" target="_blank"><span>Comprar Ingresso</span></a>
+                                        <p class="mb-3"></p>
+                                        
+                                    </div>
+                                </div>
+                                <div class="gradient-edge-bottom h-100"></div>
+                                <img src="images/misc/16.png" class="w-100 hover-scale-1-1" alt="Show Chitãozinho e Leonardo">
+                                <div class="abs w-100 h-100 start-0 top-0 hover-op-1 radial-gradient-color"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="hover">
+                            <div class="bg-dark-2 relative rounded-1 overflow-hidden hover-bg-color hover-text-light wow scale-in-mask">
+                                <div class="abs p-40 bottom-0 z-2">
+                                    <div class="relative wow fadeInUp">
+                                        <h4>26/12 - Daniel & Wesley Safadão</h4>
+                                        <p class="mb-3">Sertanejo e forró para agitar a sua sexta-feira.</p>
+                                        <a class="btn-main btn-sm fx-slide" href="https://www.guicheweb.com.br/estacaoveraopg" target="_blank"><span>Comprar Ingresso</span></a>
+                                    </div>
+                                </div>
+                                <div class="gradient-edge-bottom h-100"></div>
+                                <img src="images/misc/2.png" class="w-100 hover-scale-1-1" alt="Show Daniel e Wesley Safadão">
+                                <div class="abs w-100 h-100 start-0 top-0 hover-op-1 radial-gradient-color"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="hover">
+                            <div class="bg-dark-2 relative rounded-1 overflow-hidden hover-bg-color hover-text-light wow scale-in-mask">
+                                <div class="abs p-40 bottom-0 z-2">
+                                    <div class="relative wow fadeInUp">
+                                        <h4>27/12 - Roupa Nova & Caetano Veloso</h4>
+                                        <p class="mb-3">Do clássico ao contemporâneo, uma noite para recordar.</p>
+                                        <a class="btn-main btn-sm fx-slide" href="https://www.guicheweb.com.br/estacaoveraopg" target="_blank"><span>Comprar Ingresso</span></a>
+                                    </div>
+                                </div>
+                                <div class="gradient-edge-bottom h-100"></div>
+                                <img src="images/misc/3.png" class="w-100 hover-scale-1-1" alt="Show Roupa Nova e Caetano Veloso">
+                                <div class="abs w-100 h-100 start-0 top-0 hover-op-1 radial-gradient-color"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="hover">
+                            <div class="bg-dark-2 relative rounded-1 overflow-hidden hover-bg-color hover-text-light wow scale-in-mask">
+                                <div class="abs p-40 bottom-0 z-2">
+                                    <div class="relative wow fadeInUp">
+                                        <h4>02/01 - MC Ryan SP, MC Hariel & Gusttavo Lima</h4>
+                                        <p class="mb-3">Funk e sertanejo para começar o ano com o pé direito.</p>
+                                        <a class="btn-main btn-sm fx-slide" href="https://www.guicheweb.com.br/estacaoveraopg" target="_blank"><span>Comprar Ingresso</span></a>
+                                    </div>
+                                </div>
+                                <div class="gradient-edge-bottom h-100"></div>
+                                <img src="images/misc/4.png" class="w-100 hover-scale-1-1" alt="Shows de funk e sertanejo">
+                                <div class="abs w-100 h-100 start-0 top-0 hover-op-1 radial-gradient-color"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="hover">
+                            <div class="bg-dark-2 relative rounded-1 overflow-hidden hover-bg-color hover-text-light wow scale-in-mask">
+                                <div class="abs p-40 bottom-0 z-2">
+                                    <div class="relative wow fadeInUp">
+                                        <h4>03/01 - Ana Castela & Thiaguinho</h4>
+                                        <p class="mb-3">A boiadeira e o samba para uma noite de pura energia.</p>
+                                        <a class="btn-main btn-sm fx-slide" href="https://www.guicheweb.com.br/estacaoveraopg" target="_blank"><span>Comprar Ingresso</span></a>
+                                    </div>
+                                </div>
+                                <div class="gradient-edge-bottom h-100"></div>
+                                <img src="images/misc/5.png" class="w-100 hover-scale-1-1" alt="Show Ana Castela e Thiaguinho">
+                                <div class="abs w-100 h-100 start-0 top-0 hover-op-1 radial-gradient-color"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="hover">
+                            <div class="bg-dark-2 relative rounded-1 overflow-hidden hover-bg-color hover-text-light wow scale-in-mask">
+                                <div class="abs p-40 bottom-0 z-2">
+                                    <div class="relative wow fadeInUp">
+                                        <h4>04/01 - Cê Tá Doido Festival</h4>
+                                        <p class="mb-3">Um festival completo com diversas atrações.</p>
+                                        <a class="btn-main btn-sm fx-slide" href="https://www.guicheweb.com.br/estacaoveraopg" target="_blank"><span>Comprar Ingresso</span></a>
+                                    </div>
+                                </div>
+                                <div class="gradient-edge-bottom h-100"></div>
+                                <img src="images/misc/6.png" class="w-100 hover-scale-1-1" alt="Cê Tá Doido Festival">
+                                <div class="abs w-100 h-100 start-0 top-0 hover-op-1 radial-gradient-color"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="hover">
+                            <div class="bg-dark-2 relative rounded-1 overflow-hidden hover-bg-color hover-text-light wow scale-in-mask">
+                                <div class="abs p-40 bottom-0 z-2">
+                                    <div class="relative wow fadeInUp">
+                                        <h4>09/01 - Pablo & Belo</h4>
+                                        <p class="mb-3">A noite dos românticos com os reis do arrocha e pagode.</p>
+                                        <a class="btn-main btn-sm fx-slide" href="https://www.guicheweb.com.br/estacaoveraopg" target="_blank"><span>Comprar Ingresso</span></a>
+                                    </div>
+                                </div>
+                                <div class="gradient-edge-bottom h-100"></div>
+                                <img src="images/misc/7.png" class="w-100 hover-scale-1-1" alt="Show Pablo e Belo">
+                                <div class="abs w-100 h-100 start-0 top-0 hover-op-1 radial-gradient-color"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="hover">
+                            <div class="bg-dark-2 relative rounded-1 overflow-hidden hover-bg-color hover-text-light wow scale-in-mask">
+                                <div class="abs p-40 bottom-0 z-2">
+                                    <div class="relative wow fadeInUp">
+                                        <h4>10/01 - Wiu, Teto & Matuê</h4>
+                                        <p class="mb-3">O trap nacional em peso para uma noite histórica.</p>
+                                        <a class="btn-main btn-sm fx-slide" href="https://www.guicheweb.com.br/estacaoveraopg" target="_blank"><span>Comprar Ingresso</span></a>
+                                    </div>
+                                </div>
+                                <div class="gradient-edge-bottom h-100"></div>
+                                <img src="images/misc/8.png" class="w-100 hover-scale-1-1" alt="Shows de Wiu, Teto e Matuê">
+                                <div class="abs w-100 h-100 start-0 top-0 hover-op-1 radial-gradient-color"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="hover">
+                            <div class="bg-dark-2 relative rounded-1 overflow-hidden hover-bg-color hover-text-light wow scale-in-mask">
+                                <div class="abs p-40 bottom-0 z-2">
+                                    <div class="relative wow fadeInUp">
+                                        <h4>16/01 - Zé Neto e Cristiano & Natanzinho Lima</h4>
+                                        <p class="mb-3">Duas grandes duplas do sertanejo para você cantar junto.</p>
+                                        <a class="btn-main btn-sm fx-slide" href="https://www.guicheweb.com.br/estacaoveraopg" target="_blank"><span>Comprar Ingresso</span></a>
+                                    </div>
+                                </div>
+                                <div class="gradient-edge-bottom h-100"></div>
+                                <img src="images/misc/9.png" class="w-100 hover-scale-1-1" alt="Show Zé Neto e Cristiano e Natanzinho Lima">
+                                <div class="abs w-100 h-100 start-0 top-0 hover-op-1 radial-gradient-color"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="hover">
+                            <div class="bg-dark-2 relative rounded-1 overflow-hidden hover-bg-color hover-text-light wow scale-in-mask">
+                                <div class="abs p-40 bottom-0 z-2">
+                                    <div class="relative wow fadeInUp">
+                                        <h4>17/01 - Ludmilla & Ivete Sangalo</h4>
+                                        <p class="mb-3">As divas do pop e axé para uma noite de muita dança.</p>
+                                        <a class="btn-main btn-sm fx-slide" href="https://www.guicheweb.com.br/estacaoveraopg" target="_blank"><span>Comprar Ingresso</span></a>
+                                    </div>
+                                </div>
+                                <div class="gradient-edge-bottom h-100"></div>
+                                <img src="images/misc/10.png" class="w-100 hover-scale-1-1" alt="Show Ludmilla e Ivete Sangalo">
+                                <div class="abs w-100 h-100 start-0 top-0 hover-op-1 radial-gradient-color"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="hover">
+                            <div class="bg-dark-2 relative rounded-1 overflow-hidden hover-bg-color hover-text-light wow scale-in-mask">
+                                <div class="abs p-40 bottom-0 z-2">
+                                    <div class="relative wow fadeInUp">
+                                        <h4>18/01 - Henry Freitas & Jorge e Mateus</h4>
+                                        <p class="mb-3">Do forró romântico ao sertanejo, emoção garantida.</p>
+                                        <a class="btn-main btn-sm fx-slide" href="https://www.guicheweb.com.br/estacaoveraopg" target="_blank"><span>Comprar Ingresso</span></a>
+                                    </div>
+                                </div>
+                                <div class="gradient-edge-bottom h-100"></div>
+                                <img src="images/misc/11.png" class="w-100 hover-scale-1-1" alt="Show Henry Freitas e Jorge e Mateus">
+                                <div class="abs w-100 h-100 start-0 top-0 hover-op-1 radial-gradient-color"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="hover">
+                            <div class="bg-dark-2 relative rounded-1 overflow-hidden hover-bg-color hover-text-light wow scale-in-mask">
+                                <div class="abs p-40 bottom-0 z-2">
+                                    <div class="relative wow fadeInUp">
+                                        <h4>23/01 - Pabllo Vittar, Pedro Sampaio & Marina Senna</h4>
+                                        <p class="mb-3">Diversidade e batidão para você não parar de dançar.</p>
+                                        <a class="btn-main btn-sm fx-slide" href="https://www.guicheweb.com.br/estacaoveraopg" target="_blank"><span>Comprar Ingresso</span></a>
+                                    </div>
+                                </div>
+                                <div class="gradient-edge-bottom h-100"></div>
+                                <img src="images/misc/12.png" class="w-100 hover-scale-1-1" alt="Show Pabllo Vittar, Pedro Sampaio e Marina Senna">
+                                <div class="abs w-100 h-100 start-0 top-0 hover-op-1 radial-gradient-color"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="hover">
+                            <div class="bg-dark-2 relative rounded-1 overflow-hidden hover-bg-color hover-text-light wow scale-in-mask">
+                                <div class="abs p-40 bottom-0 z-2">
+                                    <div class="relative wow fadeInUp">
+                                        <h4>24/01 - Mari Fernandez, Léo Foguete & Felipe Amorim</h4>
+                                        <p class="mb-3">O piseiro e o forró que vai te fazer arrastar o pé.</p>
+                                        <a class="btn-main btn-sm fx-slide" href="https://www.guicheweb.com.br/estacaoveraopg" target="_blank"><span>Comprar Ingresso</span></a>
+                                    </div>
+                                </div>
+                                <div class="gradient-edge-bottom h-100"></div>
+                                <img src="images/misc/13.png" class="w-100 hover-scale-1-1" alt="Show Mari Fernandez, Léo Foguete e Felipe Amorim">
+                                <div class="abs w-100 h-100 start-0 top-0 hover-op-1 radial-gradient-color"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="hover">
+                            <div class="bg-dark-2 relative rounded-1 overflow-hidden hover-bg-color hover-text-light wow scale-in-mask">
+                                <div class="abs p-40 bottom-0 z-2">
+                                    <div class="relative wow fadeInUp">
+                                        <h4>30/01 - Xand Avião & Sorriso Maroto</h4>
+                                        <p class="mb-3">Forró e pagode para uma noite de muita festa.</p>
+                                        <a class="btn-main btn-sm fx-slide" href="https://www.guicheweb.com.br/estacaoveraopg" target="_blank"><span>Comprar Ingresso</span></a>
+                                    </div>
+                                </div>
+                                <div class="gradient-edge-bottom h-100"></div>
+                                <img src="images/misc/14.png" class="w-100 hover-scale-1-1" alt="Show Xand Avião e Sorriso Maroto">
+                                <div class="abs w-100 h-100 start-0 top-0 hover-op-1 radial-gradient-color"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="hover">
+                            <div class="bg-dark-2 relative rounded-1 overflow-hidden hover-bg-color hover-text-light wow scale-in-mask">
+                                <div class="abs p-40 bottom-0 z-2">
+                                    <div class="relative wow fadeInUp">
+                                        <h4>31/01 - Marisa Monte & João Gomes</h4>
+                                        <p class="mb-3">Fechando o festival com a MPB e o piseiro que você ama.</p>
+                                        <a class="btn-main btn-sm fx-slide" href="https://www.guicheweb.com.br/estacaoveraopg" target="_blank"><span>Comprar Ingresso</span></a>
+                                    </div>
+                                </div>
+                                <div class="gradient-edge-bottom h-100"></div>
+                                <img src="images/misc/15.png" class="w-100 hover-scale-1-1" alt="Show Marisa Monte e João Gomes">
+                                <div class="abs w-100 h-100 start-0 top-0 hover-op-1 radial-gradient-color"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+        <section id="section-mapa" class="bg-dark section-dark text-light pt-80" aria-label="section">
+            <img src="images/coqueiro2.png" alt="" class="deco-img d-none d-lg-block" style="top: -150px; right: -250px; width: 400px; transform: rotate(30deg);">
+            
+            <div class="container relative z-2">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-6 text-center">
+                        <div class="subtitle wow fadeInUp" data-wow-delay=".0s">Mapa do Evento</div>
+                        <h2 class="wow fadeInUp" data-wow-delay=".2s">Localização e Setores</h2>
+                        <p class="lead wow fadeInUp" data-wow-delay=".6s">Confira o mapa para se localizar no evento e planejar sua visita. Em breve, divulgaremos mais detalhes.</p>
+                    </div>
+                </div>
+
+                <div class="row g-4 justify-content-center">
+                    <div class="col-12 col-lg-10 mx-auto">
+                        <img src="images/mapageral.png" class="w-100 rounded-1 wow scale-in-mask" alt="Mapa geral do evento">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="section-setores" class="bg-dark section-dark text-light pt-80 relative jarallax" aria-label="section">
+            <img src="images/background/8.png" class="jarallax-img" alt="">
+           
+
+            <div class="container relative z-2">
+                <div class="row g-4 gx-5 justify-content-center">
+                    <div class="col-lg-6 text-center">
+                        <div class="subtitle s2 mb-3 wow fadeInUp" data-wow-delay=".0s">Opções de Ingressos</div>
+                        <h2 class="wow fadeInUp" data-wow-delay=".2s">Escolha seu Setor</h2>
+                        <p class="lead wow fadeInUp" data-wow-delay=".4s">Selecione o setor perfeito para sua experiência e garanta seu lugar no maior festival de verão do Brasil.</p>
+                    </div>
+                </div>
+
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="owl-carousel owl-theme owl-3-dots wow mask-right">
+                            <div class="item">
+                                <div class="d-ticket">
+                                    <img src="images/logo.png" class="w-80px mb-4" alt="">
+                                    <img src="images/misc/barcode.png" class="w-20 p-2 abs abs-middle end-0 me-2" alt="">
+                                    
+                                    <h2>Pista</h2>
+                                    <h4 class="mb-4">O melhor custo-benefício</h4>
+                                    <div class="fs-14">A opção democrática para curtir o Evento.</div>
+                                </div>
+                                <div class="relative overflow-hidden">
+                                    <div class="py-4 z-2">
+                                        <ul class="ul-check mb-4">
+                                            <li>Preço acessível para todos celebrarem juntos.</li>
+                                            <li>Praça de alimentação completa.</li>
+                                            <li>Banheiros disponíveis com conforto.</li>
+                                            <li>Clima de multidão, o coração pulsante do festival.</li>
+                                        </ul>
+                                    </div>
+                                    <a class="btn-main fx-slide w-100" href="https://www.guicheweb.com.br/estacaoveraopg" target="_blank"><span>Comprar Ingresso</span></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="d-ticket">
+                                    <img src="images/logo.png" class="w-80px mb-4" alt="">
+                                    <img src="images/misc/barcode.png" class="w-20 p-2 abs abs-middle end-0 me-2" alt="">
+                                    
+                                    <h2>Pista Premium</h2>
+                                    <h4 class="mb-4">A emoção mais perto do palco</h4>
+                                    <div class="fs-14">Proximidade, comodidade e exclusividade.</div>
+                                </div>
+                                <div class="relative">
+                                    <div class="py-4 z-2">
+                                        <ul class="ul-check mb-4">
+                                            <li>Proximidade máxima ao palco, sinta a música de perto.</li>
+                                            <li>Banheiros exclusivos para mais comodidade.</li>
+                                            <li>Bar exclusivo para brindar a alegria do verão.</li>
+                                            <li>Atmosfera única, conectando você à força cultural do país.</li>
+                                        </ul>
+                                    </div>
+                                    <a class="btn-main fx-slide w-100" href="https://www.guicheweb.com.br/estacaoveraopg" target="_blank"><span>Comprar Ingresso</span></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="d-ticket s2">
+                                    <img src="images/logo.png" class="w-80px mb-4" alt="">
+                                    <img src="images/misc/barcode.png" class="w-20 p-2 abs abs-middle end-0 me-2" alt="">
+                                    
+                                    <h2>Front Stage</h2>
+                                    <h4 class="mb-4">A experiência definitiva</h4>
+                                    <div class="fs-14">Acesso privilegiado, open bar e balada imperial.</div>
+                                </div>
+                                <div class="relative">
+                                    <div class="py-4 z-2">
+                                        <ul class="ul-check mb-4">
+                                            <li>Open Bar Premium (vodka, cerveja, chopp, refri e água).</li>
+                                            <li>Proximidade dos artistas, sinta os ritmos de perto.</li>
+                                            <li>Área exclusiva e privilegiada com visão diferenciada.</li>
+                                            <li>Acesso à Balada Imperial após os shows.</li>
+                                        </ul>
+                                    </div>
+                                    <a class="btn-main fx-slide w-100" href="https://www.guicheweb.com.br/estacaoveraopg" target="_blank"><span>Comprar Ingresso</span></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="d-ticket s2">
+                                    <img src="images/logo.png" class="w-80px mb-4" alt="">
+                                    <img src="images/misc/barcode.png" class="w-20 p-2 abs abs-middle end-0 me-2" alt="">
+                                    
+                                    <h2>Backstage do Barão</h2>
+                                    <h4 class="mb-4">O setor mais exclusivo</h4>
+                                    <div class="fs-14">Música, sabor, conforto e privilégio em um só lugar.</div>
+                                </div>
+                                <div class="relative">
+                                    <div class="py-4 z-2">
+                                        <ul class="ul-check mb-4">
+                                            <li>Open Bar Ultra Premium (whisky, gin, vodka, cerveja, etc.).</li>
+                                            <li>Open Food Gourmet com cardápio variado a cada dia.</li>
+                                            <li>Banheiros exclusivos e estrutura sofisticada.</li>
+                                            <li>Espaço climatizado e serviço dedicado.</li>
+                                            <li>Acesso à Balada Imperial.</li>
+                                        </ul>
+                                    </div>
+                                    <a class="btn-main fx-slide w-100" href="https://www.guicheweb.com.br/estacaoveraopg" target="_blank"><span>Comprar Ingresso</span></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="d-ticket s2">
+                                    <img src="images/logo.png" class="w-80px mb-4" alt="">
+                                    <img src="images/misc/barcode.png" class="w-20 p-2 abs abs-middle end-0 me-2" alt="">
+                                    
+                                    <h2>Camarote Imperial</h2>
+                                    <h4 class="mb-4">Exclusividade sem hora pra acabar</h4>
+                                    <div class="fs-14">Espaço privativo para 10 pessoas e Balada Imperial.</div>
+                                </div>
+                                <div class="relative">
+                                    <div class="py-4 z-2">
+                                        <ul class="ul-check mb-4">
+                                            <li>Espaço privativo para 10 pessoas.</li>
+                                            <li>Atendimento de garçom exclusivo.</li>
+                                            <li>Bar e banheiros reservados.</li>
+                                            <li>Acesso à Balada Imperial após os shows.</li>
+                                            <li>Sofisticação, união e celebração.</li>
+                                        </ul>
+                                    </div>
+                                    <a class="btn-main fx-slide w-100" href="https://wa.me/5517991921638?text=Quero%20comprar%20meu%20espaço%20no%20camarote%20Imperial" target="_blank"><span>Comprar Ingresso</span></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="d-ticket s2">
+                                    <img src="images/logo.png" class="w-80px mb-4" alt="">
+                                    <img src="images/misc/barcode.png" class="w-20 p-2 abs abs-middle end-0 me-2" alt="">
+                                   
+                                    <h2>Camarote Empresarial</h2>
+                                    <h4 class="mb-4">Negócios e brasilidade em grande estilo</h4>
+                                    <div class="fs-14">Espaço ampliado para até 20 pessoas, ideal para empresas.</div>
+                                </div>
+                                <div class="relative">
+                                    <div class="py-4 z-2">
+                                        <ul class="ul-check mb-4">
+                                            <li>Espaço ampliado para até 20 pessoas.</li>
+                                            <li>Atendimento personalizado com garçom exclusivo.</li>
+                                            <li>Bar exclusivo e banheiros privativos.</li>
+                                            <li>Acesso à Balada Imperial.</li>
+                                            <li>Ambiente de prestígio para networking e celebração.</li>
+                                        </ul>
+                                    </div>
+                                    <a class="btn-main fx-slide w-100" href="https://wa.me/5517991921638?text=Quero%20comprar%20meu%20espaço%20no%20camarote%20Empresarial" target="_blank"><span>Comprar Ingresso</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-local" class="bg-dark section-dark text-light">
+            <img src="images/lado_esquerdo_igreja.png" alt="" class="deco-img d-none d-lg-block" style="top: 100px; left: -100px; width: 250px;">
+            
+            <div class="container">
+                <div class="row gx-5 align-items-center justify-content-between">
+                    <div class="col-lg-6">
+                        <div class="me-lg-5 pe-lg-5 py-5 my-5">
+                            <div class="subtitle wow fadeInUp" data-wow-delay=".2s">Sobre o Evento</div>
+                            <h2 class="wow fadeInUp" data-wow-delay=".4s">Uma Estrutura Gigante no Kartódromo de Praia Grande</h2>
+                            <p class="wow fadeInUp" data-wow-delay=".6s">O Kartódromo Municipal de Praia Grande se transforma no palco dos maiores shows do Brasil. Com uma estrutura completa, segura e de fácil acesso, o local é ideal para receber milhares de fãs em busca de diversão. Em breve vamos divulgar todas as atrações e arenas do complexo.</p>
+
+                            <ul class="ul-check">
+                                <li class="wow fadeInUp" data-wow-delay=".8s">Estrutura completa com praça de alimentação</li>
+                                <li class="wow fadeInUp" data-wow-delay=".9s">Segurança e conforto para todos os públicos</li>
+                                <li class="wow fadeInUp" data-wow-delay="1s">Localização privilegiada e de fácil acesso</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="wow scaleIn">
+                            <img src="images/misc/barco.png" class="w-100 rotate-animation" alt="Imagem ilustrativa do evento">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-faq" class="bg-dark section-dark text-light">
+             <img src="images/coqueiro.png" alt="" class="deco-img d-none d-lg-block" style="bottom: -150px; right: -150px; width: 450px; transform: rotate(150deg);">
+            
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-5">
+                        <div class="subtitle wow fadeInUp" data-wow-delay=".0s">Tudo o que Você Precisa Saber</div>
+                        <h2 class="wow fadeInUp" data-wow-delay=".2s">Perguntas Frequentes</h2>
+                    </div>
+
+                    <div class="col-lg-7">
+                        <div class="accordion s2 wow fadeInUp">
+                            <div class="accordion-section">
+                                <div class="accordion-section-title" data-tab="#accordion-a1">
+                                    O que é o Estação Verão Show?
+                                </div>
+                                <div class="accordion-section-content" id="accordion-a1">
+                                    O Estação Verão Show é o maior festival de verão do Brasil, reunindo grandes artistas nacionais em uma megaestrutura montada no Kartódromo de Praia Grande durante o verão.
+                                </div>
+
+                                <div class="accordion-section-title" data-tab="#accordion-a2">
+                                    Quando e onde acontece o evento?
+                                </div>
+                                <div class="accordion-section-content" id="accordion-a2">
+                                    O evento ocorre entre 20 de Dezembro de 2025 e 31 de Janeiro de 2026, no Kartódromo Municipal de Praia Grande, localizado na Av. Luiz Arikawa, 84 - Sítio do Campo, Praia Grande - SP.
+                                </div>
+
+                                <div class="accordion-section-title" data-tab="#accordion-a3">
+                                    Como posso comprar ingressos?
+                                </div>
+                                <div class="accordion-section-content" id="accordion-a3">
+                                    Os ingressos podem ser comprados online através do nosso site oficial e em breve também nos pontos de venda.
+                                </div>
+
+                                <div class="accordion-section-title" data-tab="#accordion-a4">
+                                    Qual a classificação indicativa do evento?
+                                </div>
+                                <div class="accordion-section-content" id="accordion-a4">
+                                    <p>Para Pista, Pista Premium, Camarote Imperial e Camarote Empresarial: Crianças menores de 6 anos não precisam de ingresso, desde que acompanhadas pelos pais ou responsáveis legais.</p>
+                                    <p>Para Front Stage e Backstage do Barão: É necessário ingresso para todas as idades, além da obrigatoriedade de estar acompanhado pelos pais ou responsáveis legais.</p>
+                                    <p>Menores de 16 anos: Só poderão acessar o evento acompanhados pelos pais ou responsáveis legais.</p>
+                                    <p>Maiores de 16 e menores de 18 anos: Poderão acessar o evento desacompanhados apenas mediante apresentação de autorização autenticada dos pais ou responsáveis legais.</p>
+                                </div>
+
+                                <div class="accordion-section-title" data-tab="#accordion-a5">
+                                    Como funciona o Ingresso Social?
+                                </div>
+                                <div class="accordion-section-content" id="accordion-a5">
+                                    <p>O Ingresso Social é uma modalidade promocional com desconto, que contribui diretamente com o Fundo Social de Solidariedade de Praia Grande.</p>
+                                    <p><strong>Quem pode adquirir?</strong> Qualquer pessoa que deseje colaborar com o Fundo Social e optar pela compra do ingresso com 50% de desconto.</p>
+                                    <p><strong>Como funciona?</strong> Ao adquirir o Ingresso Social, o comprador assume o pagamento adicional de um ticket Vale-Social no valor de R$ 10,00 (dez reais), incluído no ato da compra. Esse valor é integralmente revertido ao Fundo Social.</p>
+                                    <p><strong>Setores Válidos:</strong> Pista, Pista Premium, Front Stage e Backstage do Barão.</p>
+                                    <p><strong>Setores Não Válidos:</strong> Camarote Imperial e Camarote Empresarial.</p>
+                                </div>
+
+                                <div class="accordion-section-title" data-tab="#accordion-a6">
+                                    Quem tem direito à Meia-Entrada?
+                                </div>
+                                <div class="accordion-section-content" id="accordion-a6">
+                                    <p>A apresentação do documento comprobatório é obrigatória tanto no ato da compra (quando aplicável) quanto na entrada do evento. A concessão de meia-entrada segue a Lei Federal nº 12.933/2013, regulamentada pelo Decreto nº 8.537/2015, respeitando o limite legal de até 40% da carga total de ingressos disponíveis por setor, com exceção dos idosos.</p>
+                                    <p><strong>Têm direito à meia-entrada:</strong></p>
+                                    <ul>
+                                        <li>Maiores de 60 anos – mediante apresentação de documento original com foto.</li>
+                                        <li>Estudantes regularmente matriculados – com apresentação do Documento Nacional do Estudante (DNE) e documento oficial com foto.</li>
+                                        <li>Jovens de baixa renda entre 15 e 29 anos – inscritos no CadÚnico e portadores da ID Jovem.</li>
+                                        <li>Profissionais da educação da rede pública estadual e municipal de São Paulo.</li>
+                                        <li>Servidores públicos da Prefeitura de Praia Grande – mediante apresentação de crachá funcional.</li>
+                                        <li>Pessoas com Deficiência (PCD) e seu acompanhante, quando necessário.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+    </div>
+
+    <footer class="text-light section-dark">
+        <img src="images/pessoasroda.png" alt="" class="deco-img d-none d-lg-block" style="bottom: 0; left: 0; width: 450px; transform: rotate(0deg);">
+        
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-12">
+                    <div class="d-lg-flex align-items-center justify-content-between text-center">
+                        <div>
+                            <h3 class="fs-20">Fale Conosco</h3>
+                            E-mail: 
+                        </div>
+                        <div>
+                            <img src="images/logo.png" class="w-150px" alt="Logo Estação Verão Show"><br>
+                        </div>
+                        <div>
+                            <h3 class="fs-20">WhatsApp</h3>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="subfooter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        Copyright 2025 - Estação Verão Show
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/vendors.js"></script>
+    <script src="js/designesia.js"></script>
+    <script src="js/countdown-custom.js"></script>
+    <script src="js/custom-marquee.js"></script>
+
+</body>
+
+</html>
